@@ -1,0 +1,26 @@
+.site-header {
+    background-color: rgba(0, 0, 0, .85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+}
+
+.site-header a {
+    color: white;
+    transition: color .15s ease-in-out;
+    text-decoration: none;
+}
+
+.site-header a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+#hero {
+    background-image: url(../img/Sky.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    max-width: 85%;
+}
